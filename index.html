@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <section class="section-center">
+    <article>
+
+      <!-- main rating component -->
+
+      <div class="rating-component">
+        <div class="star">
+          <img src="./images/icon-star.svg" alt="." class="logo">
+        </div>
+        <h2 class="heading">How did we do?</h2>
+        <p class="text-content">
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+        <div class="rating-container">
+          <div class="rating-list">
+            <button type="button" class="rating-btn" data-id="1">1</button>
+            <button type="button" class="rating-btn" data-id="2">2</button>
+            <button type="button" class="rating-btn" data-id="3">3</button>
+            <button type="button" class="rating-btn" data-id="4">4</button>
+            <button type="button" class="rating-btn" data-id="5">5</button>
+          </div>
+        </div>
+        <button type="submit" class="submit-btn">submit</button>
+      </div>
+
+      <!-- submitted state  -->
+
+      <!-- <div class="submited-state">
+      <img src="./images/illustration-thank-you.svg" alt="Thank you">
+      <div class="active-selection">
+        <h4>You selected Add rating here out of 5</h4>
+        <h2>thank you!</h2>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>
+      </div> 
+    </div> -->
+    </article>
+  </section>
+  <!-- Rating state start -->
+
+  <!-- How did we do?
+
+
+  1 2 3 4 5
+
+  Submit -->
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- You selected Add rating here out of 5 -->
+
+  <!-- Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! -->
+
+  <!-- Thank you state end -->
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+<script src="./app.js"></script>
+
+</html>

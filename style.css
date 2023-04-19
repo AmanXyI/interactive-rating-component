@@ -89,14 +89,15 @@ body{
 }
 
 article{   
+
     position: relative;
     width: 87vw;
     height: 24rem;
     background-color: white;
     border-radius:1.5rem ;
     overflow: hidden;
-    display: grid;
-    place-items: center;
+    /* display: grid;
+    place-items: center; */
 }
 .rating-component{
     height: 100%;

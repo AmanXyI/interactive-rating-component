@@ -169,6 +169,7 @@ article{
     padding: .5rem 1rem;
     border-radius: 10rem;
     font-size: .9rem;
+    /* font-weight: 200; */
 }
 .text-content{
     text-align: center;
@@ -176,6 +177,7 @@ article{
 }
 .text-content h2{
     text-transform: capitalize;
+    margin-bottom: .5rem;
 }
 .text-content p{
     color: var(--clr-Medium-Grey);
